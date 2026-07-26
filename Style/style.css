@@ -113,12 +113,111 @@ nav ul li a {
   margin-bottom: 7px;
 }
 
-.meet-p2{
+.meet-p2 {
   font-size: 10;
   color: #575757;
   margin-top: 7px;
 }
 
-.extra-div{
+.extra-div {
   padding: 15px;
+}
+
+
+/* Secure Section */
+.secure {
+  margin: 50px auto;
+}
+
+.secure-text {
+  text-align: center;
+}
+
+.secure-h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.secure-p {
+  color: #575757;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.secure-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-1 {
+  border: 1px solid #E5E7EB;
+  border-radius: 9px;
+  padding: 35px;
+}
+
+.card-p1 {
+  color: #888888;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.card-p2 {
+  color: #888888;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.hr {
+  border-color: #E5E7EB;
+}
+
+.card-ul {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 16px;
+}
+
+.card-ul li::marker {
+  color: #2563EB;
+}
+
+.card-ul li {
+  color: #333333;
+  padding: 4px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card-btn {
+  padding: 10px 100px;
+  border: 1px solid #2563EB;
+  border-radius: 7px;
+  color: #2563EB;
+  font-weight: bold;
+  background: white;
+}
+
+.card-2 {
+  background: #0D1B2A;
+}
+
+.card-2-p1 {
+  color: #93C5FD;
+}
+
+.card-2 h1 {
+  color: #FFFFFF;
+}
+
+.card-2 ul li {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.card-2-btn {
+  background: #2563EB;
+  color: #FFFFFF
 }
