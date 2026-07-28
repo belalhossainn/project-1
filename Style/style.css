@@ -225,10 +225,104 @@ nav ul li a {
 
 
 
+/* Join Conference Section */
+
+.join-conference {
+  margin: 80px auto;
+  padding: 60px;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+  background-color: #0f1e2e;
+  border-radius: 16px;
+  color: white;
+}
+
+.join-content {
+  max-width: 600px;
+}
+
+.join-label {
+  color: #60a5fa;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.join-content h2 {
+  font-size: 45px;
+  margin: 15px 0;
+}
+
+.join-content p {
+  color: #cbd5e1;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.join-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.join-buttons a {
+  padding: 14px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primary-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.secondary-btn {
+  border: 1px solid #64748b;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.secondary-btn:hover {
+  background-color: white;
+  color: #0f1e2e;
+}
+
+.join-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  text-align: center;
+}
+
+.join-info div {
+  padding: 20px;
+  border-left: 1px solid #475569;
+}
+
+.join-info h3 {
+  color: #60a5fa;
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+
+.join-info p {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+
 /* Footer section */
 .footer {
   background: #0D1B2A;
- color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 
@@ -249,8 +343,4 @@ nav ul li a {
 .footer-copy {
   text-align: center;
   padding: 15px 0px;
-}
-
-.footer-img{
-  
 }
