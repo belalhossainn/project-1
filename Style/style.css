@@ -221,3 +221,36 @@ nav ul li a {
   background: #2563EB;
   color: #FFFFFF
 }
+
+
+
+
+/* Footer section */
+.footer {
+  background: #0D1B2A;
+ color: #FFFFFF;
+}
+
+
+.footer-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  padding: 30px;
+}
+
+
+.footer-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-copy {
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.footer-img{
+  
+}
